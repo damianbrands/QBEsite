@@ -1,9 +1,9 @@
 import './App.css'
 import Header from './components/Header'
-import TitlePage from "./components/TitlePage.jsx";
-import AboutPage from "./components/AboutPage.jsx";
-import ProjectsPage from "./components/ProjectsPage.jsx";
-import ContactPage from "./components/ContactPage.jsx";
+import TitlePage from "./pages/TitlePage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+import ProjectsPage from "./pages/ProjectsPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
 
 function App() {
     return (
