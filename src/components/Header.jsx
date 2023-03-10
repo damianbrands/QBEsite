@@ -2,15 +2,18 @@ import React from "react"
 
 export default function Header(){
     function scrollToAbout(){
-        document.getElementById("about").scrollIntoView();
+        const element = document.getElementById("aboutScroll");
+        element.scrollIntoView({behavior: 'smooth', block: 'start'});
     }
 
     function scrollToProjects(){
-        document.getElementById("projects").scrollIntoView();
+        const element = document.getElementById("projectsScroll");
+        element.scrollIntoView({behavior: 'smooth', block: 'start'});
     }
 
     function scrollToContact(){
-        document.getElementById("contact").scrollIntoView();
+        const element = document.getElementById("contactScroll");
+        element.scrollIntoView({behavior: 'smooth', block: 'start'});
     }
 
     return(
