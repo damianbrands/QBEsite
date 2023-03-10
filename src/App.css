@@ -6,7 +6,8 @@
 }
 
 .title__page{
-  min-height: 100vh;
+  margin-top: 10vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,11 +17,11 @@
 
 .about__page{
   background: var(--bg);
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 .projects__page{
-  min-height: 90vh;
+  min-height: 80vh;
   background: var(--darkbg);
 }
 
@@ -98,6 +99,10 @@ p{
   position: absolute;
   z-index: 0;
   left: 30vw;
+}
+
+.scrollDiv{
+  height: 10vh;
 }
 
 .about__page{
