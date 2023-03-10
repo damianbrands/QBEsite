@@ -1,6 +1,10 @@
 import React from "react"
 
 export default function Header(){
+    function scrollToTop(){
+        window.scrollTo({top: 0, behavior: 'smooth'})
+    }
+
     function scrollToAbout(){
         const element = document.getElementById("aboutScroll");
         element.scrollIntoView({behavior: 'smooth', block: 'start'});
@@ -18,7 +22,7 @@ export default function Header(){
 
     return(
         <div className="header">
-            <div className={"logo__header subtitle"}>QB Engineering</div>
+            <button className={"logo__header subtitle"} onClick={scrollToTop}>QB Engineering</button>
             <div className={"header__button__container"}>
                 <button className={"header__button"} onClick={scrollToAbout}>About</button>
                 <button className={"header__button"} onClick={scrollToProjects}>Projects</button>
