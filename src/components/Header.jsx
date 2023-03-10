@@ -24,9 +24,9 @@ export default function Header(){
         <div className="header">
             <button className={"logo__header subtitle"} onClick={scrollToTop}>QB Engineering</button>
             <div className={"header__button__container"}>
-                <button className={"header__button"} onClick={scrollToAbout}>About</button>
-                <button className={"header__button"} onClick={scrollToProjects}>Projects</button>
-                <button className={"header__button"} onClick={scrollToContact}>Contact</button>
+                <button className={"header__button text"} onClick={scrollToAbout}>About</button>
+                <button className={"header__button text"} onClick={scrollToProjects}>Projects</button>
+                <button className={"header__button text"} onClick={scrollToContact}>Contact</button>
             </div>
         </div>
     )
