@@ -1,8 +1,10 @@
 :root {
   --bg: #1B1B1D;
-  --darkbg: #131315;
-  --accent: #1B36C3;
+  --darkbg: #E0E8ED;
+  --accent: #2a751e;
   --light: #E0E8ED;
+  /*#1B1B1D*/
+  /*#131315*/
 }
 
 .title__page{
@@ -37,7 +39,7 @@
   justify-content: space-between;
   align-items: center;
   background: var(--bg);
-  border-bottom: 6px solid var(--darkbg);
+  border-bottom: 0.5rem solid var(--accent);
 
   position: fixed;
   top: 0;
@@ -70,6 +72,10 @@ p{
   font-weight: lighter;
 }
 
+.black{
+  color: var(--bg);
+}
+
 .subtitle{
   font-size: 2.25rem;
   font-weight: normal;
@@ -93,7 +99,7 @@ p{
 }
 
 .square{
-  border: 6px solid var(--accent);
+  border: 0.5rem solid var(--accent);
   width: 14.5vw;
   height: 14.5vw;
   position: absolute;
@@ -103,6 +109,7 @@ p{
 
 .scrollDiv{
   height: 10vh;
+  background: var(--accent);
 }
 
 .about__page{
